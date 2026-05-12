@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head lang="es">
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="estilos.css">
+        <title>Pagina de prueba</title>
+    </head>
+    <body>
+        <main class="calculator">
+            <header>
+                <h1>CALCULADORA</h1>
+                <p>Ingrese dos valores y una operacion para obtener un resultado</p>
+            </header>
+
+            <div id="res-show">
+                0
+            </div>
+
+            <form id="calculator-form">
+
+                <div class="form-group">
+                    <input id="first-value" type="number" name="valor1" placeholder="Primer valor">
+                </div>
+
+                <div class="form-group">
+                    <select id="operation">
+                        <option>+</option>
+                        <option>-</option>
+                        <option>*</option>
+                        <option>/</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input id="second-value" type="number" name="valor2" placeholder="Segundo valor">
+                </div>
+
+                <div class="form-group">
+                    <button id="calculate-button" type="submit">=</button>
+                </div>
+
+            </form>
+        </main>
+    </body>
+</html>
